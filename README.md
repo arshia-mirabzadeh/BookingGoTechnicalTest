@@ -51,7 +51,7 @@ For example:
 To send a request to the API using a terminal, run part2.py in a seperate shell after
 running the server.
 
-For example:
+For example:  
 `node server.js`  
 `python part2.py 54.237845,-21.153299 30.410632,-12.667513 3`  
 
