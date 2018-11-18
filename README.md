@@ -63,6 +63,8 @@ Use the following command to run the tests for part1:
 `python tests.py`
 
 Use the following command (in the main directory, not in test folder) to run the tests for part2:  
-`npm test`
+`npm test`  
+  
+Make sure the server is not running when running the tests for part 2
 
 All the tests should pass
