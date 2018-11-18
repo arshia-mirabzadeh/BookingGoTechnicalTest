@@ -54,8 +54,11 @@ To send a request to the API using a terminal, run part2.py in a seperate shell 
 running the server.
 
 For example:  
-`node server.js`  
-`python part2.py 54.237845,-21.153299 30.410632,-12.667513 3`  
+In shell 1: `node server.js`  
+In shell 2: `python part2.py 54.237845,-21.153299 30.410632,-12.667513 3`  
+  
+Here the code will call the API via our RESTful interface. The server will parse and sort the data before returning it  
+as a json payload.
 
 ## Tests
 
