@@ -39,12 +39,21 @@ For example:
 ### How to run the server
 
 In the working directory, run:
-`node part2.js`
+`node server.js`
 
-This should start the server. Then open any web browser and send a request using the url.
+This should start the server. 
+
+To send a request using the web, open any web browser and send a request using the url.
 
 For example:
 `http://localhost:8080/?pickup=50,50&dropoff=50,50&passengers=3`
+
+To send a request to the API using a terminal, run part2.py in a seperate shell after
+running the server.
+
+For example:
+`node server.js`
+`python part2.py 54.237845,-21.153299 30.410632,-12.667513 3`
 
 ## Tests
 
