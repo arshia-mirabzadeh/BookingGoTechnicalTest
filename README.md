@@ -1,12 +1,14 @@
 # BookingGo Technical Test
 
 ## Dependencies
-1. Python 3.6.4 (for part 1)
-URL: https://www.python.org/downloads/
-2. Node (for part 2)
-URL: https://nodejs.org/en/download/
-3. Copy repo by typing: `git clone https://github.com/arshia-mirabzadeh/BookingGoTechnicalTest.git`
-4. Download node dependencies by typing: `npm install` in main directory (containing package.json)
+1. Python 3.6.4 (for part 1)  
+URL: https://www.python.org/downloads/  
+2. Node (for part 2)  
+URL: https://nodejs.org/en/download/  
+3. Copy repo by typing:  
+`git clone https://github.com/arshia-mirabzadeh/BookingGoTechnicalTest.git`  
+4. Download node dependencies by typing:  
+`npm install` in main directory (containing package.json)  
 
 ## Part 1
 
@@ -45,7 +47,7 @@ This should start the server.
 
 To send a request using the web, open any web browser and send a request using the url.
 
-For example:
+For example:  
 `http://localhost:8080/?pickup=50,50&dropoff=50,50&passengers=3`
 
 To send a request to the API using a terminal, run part2.py in a seperate shell after
@@ -57,10 +59,10 @@ For example:
 
 ## Tests
 
-Use the following command to run the tests for part1:
+Use the following command to run the tests for part1:  
 `python tests.py`
 
-Use the following command (in the main directory, not in test folder) to run the tests for part2:
+Use the following command (in the main directory, not in test folder) to run the tests for part2:  
 `npm test`
 
 All the tests should pass
